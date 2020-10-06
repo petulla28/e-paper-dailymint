@@ -1,0 +1,100 @@
+html{
+    height: 100%;
+}
+body{
+     overflow: hidden;
+     background-color:   white ;
+     
+}
+.navbar{
+    padding-top: 5px;
+}
+.navbar-brand{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+.nav-item{
+    padding: 10px;
+}
+.nav-item:hover{
+    background-color: #0288D1;
+}
+@media (max-width: 990px) {
+    .navbar .link {
+      padding-left: 10px;
+      visibility: visible;
+      width: 100%;
+      font-size: 14px;
+    }
+    .navbar .navbar-brand .link {
+      visibility: hidden;
+    }
+  }
+
+
+.news p {
+position: absolute;
+padding-top: 90px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+text-align: center;
+padding-left: 300px;
+padding-right: 300px;
+color: #000000;
+
+}
+.card-deck{
+    padding-top: 200px;
+    height: 100px;
+    
+}
+.btn {
+    border-radius: 20px;
+    background-color: #EC407A ;
+    color: white;
+    
+    
+}
+.btn:hover{
+    background-color: rgb(5, 238, 238);
+}
+
+
+.browse-more{
+    display: block;
+    background-color:white;
+    width: 100%;
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 50px;
+    bottom: 30px;
+    margin: auto;
+    float: left;
+    
+   
+}
+ .browse-more{
+    padding: 7px;
+    padding-bottom: 5px;
+}
+ .browse-more .btn{
+    background-color: teal;
+}
+.footer{
+    height: 120px;
+    background-color: #17202A  
+    ;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+   
+    
+}
+.footer p{
+    color: #fff;
+    text-align: center;
+}
